@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+  android:layout_width="match_parent"     
+  android:layout_height="match_parent"   
+  android:orientation="vertical"     
+  android:padding="16dp">      
+  <TextView android:id="@+id/tvRoundTitle"         
+    android:layout_width="match_parent"         
+    android:layout_height="wrap_content"         
+    android:textSize="20sp" android:textStyle="bold"         
+    android:layout_marginBottom="8dp" />      
+  <TextView android:id="@+id/tvProgress"        
+    android:layout_width="match_parent"        
+    android:layout_height="wrap_content"         
+    android:textSize="14sp" android:layout_marginBottom="12dp" />     
+  <com.google.android.material.progressindicator.LinearProgressIndicator         
+    android:id="@+id/progressBar"         
+    android:layout_width="match_parent"        
+    android:layout_height="wrap_content"         
+    android:layout_marginBottom="20dp" />     
+  <TextView android:id="@+id/tvQuestion"       
+    android:layout_width="match_parent"        
+    android:layout_height="wrap_content"         
+    android:textSize="18sp" android:layout_marginBottom="20dp" />      
+  <RadioGroup android:id="@+id/radioGroupOptions"        
+    android:layout_width="match_parent"       
+    android:layout_height="wrap_content">      
+    <RadioButton android:id="@+id/rbOption1"            
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"           
+      android:textSize="16sp" android:padding="8dp" />      
+    <RadioButton android:id="@+id/rbOption2"             
+      android:layout_width="match_parent" 
+      android:layout_height="wrap_content"             
+      android:textSize="16sp" android:padding="8dp" />
+    <RadioButton android:id="@+id/rbOption3"           
+      android:layout_width="match_parent" 
+      android:layout_height="wrap_content"       
+      android:textSize="16sp" android:padding="8dp" />      
+    
+    <RadioButton android:id="@+id/rbOption4"           
+      android:layout_width="match_parent" 
+      android:layout_height="wrap_content" 
+      android:textSize="16sp" android:padding="8dp" />     
+  </RadioGroup>    
+  <com.google.android.material.button.MaterialButton     
+    android:id="@+id/btnNext"    
+    android:layout_width="match_parent"    
+    android:layout_height="wrap_content"     
+    android:layout_marginTop="24dp"        
+    android:text="Next" />
+</LinearLayout> 
